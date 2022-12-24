@@ -14,7 +14,7 @@ import { navItems } from "./NavItems";
 import Dropdown from "./Dropdown";
 
 const Header = () => {
-  const [dropdown, setDropdown] = useState(true);
+  const [dropdown, setDropdown] = useState(false);
 
   return (
     <>
@@ -44,11 +44,13 @@ const Header = () => {
             {navItems.map((item) => {
               if (item.title === "Announcements") {
                 return (
-                  <li key={item.id} className={item.cName}>
+                  <li key={item.id} className={item.cName}
+                  onMouseEnter={() => setDropdown(true)}
+                  onMouseLeave={() => setDropdown(false)}
+                  >
                     <Link
                       to={item.path}
-                      onMouseEnter={() => setDropdown(true)}
-                      onMouseLeave={() => setDropdown(false)}
+                     
                     >
                       {item.title}
                     </Link>
