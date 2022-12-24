@@ -1,6 +1,6 @@
 
 
-export const navItems = [
+export const navItems1 = [
 {
     id: 1,
     title: "Home",
@@ -9,34 +9,51 @@ export const navItems = [
 
 
     
-},
-{
+}
+// {
+//     id: 2,
+//     title: "Announcements",
+//     path: '/services',
+//     cName: 'nav-item'
+// },
+
+// {
+
+//     id: 3,
+//     title: "Academics",
+//     path: '/academics',
+//     cName: 'nav-item'
+// },
+// {
+//     id: 4,
+//     title: "People",
+//     path: '/people',
+//     cName: 'nav-item'
+// },{
+//     id: 5,
+//     title: "About",
+//     path: '/about',
+//     cName: 'nav-item'
+// }
+
+]
+
+export const navItems2 = [
+    {
     id: 2,
     title: "Announcements",
     path: '/services',
     cName: 'nav-item'
-},
+}]
 
-{
+export const navItems3 = [
+   {
 
     id: 3,
     title: "Academics",
     path: '/academics',
     cName: 'nav-item'
-},
-{
-    id: 4,
-    title: "People",
-    path: '/people',
-    cName: 'nav-item'
-},{
-    id: 5,
-    title: "About",
-    path: '/about',
-    cName: 'nav-item'
-}
-
-]
+}]
 
 export const dropdownOne = [{
 

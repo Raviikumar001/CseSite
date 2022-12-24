@@ -1,7 +1,7 @@
 
 
 .navbar {
-    height: 8vh;
+    height: 7vh;
     /* background: #1b1919; */
     background: #EAFDFC;
     display: flex;
@@ -20,7 +20,7 @@
     font-size: 1.1rem;
     margin-top:15px;
     gap: 2rem;
-    height: 10vh;
+    height: 8vh;
    
 }
 
