@@ -13,7 +13,7 @@ import AboutDepartment from './components/pages/AboutDepartment';
 import Message from './components/pages/Message';
 import Programme from './components/pages/programme';
 import TimeTable from './components/pages/TimeTable';
-
+import Services from './components/services';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -23,6 +23,7 @@ function App() {
       <Container style={{ minHeight: "75vh" }}>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route path="/services" element={<Services /> } />
           <Route path="/noticeboard" element={<WhatsNew />} />
           <Route path="/department" element={<AboutDepartment />} />
           <Route path="/message" element={<Message />} />

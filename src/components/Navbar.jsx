@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 import WhatsNew from "./pages/whatsNews";
 import AboutDepartment from "./pages/AboutDepartment";
 import "./navbar.css";
-import { navItems1,navItems2,navItems3, dropdownOne, dropdownTwo, dropdownThree, dropdownfour } from "./NavItems";
+import { navItems, dropdownOne, dropdownTwo, dropdownThree, dropdownfour } from "./NavItems";
 import Dropdown from "./Dropdown";
 
 const Header = () => {
@@ -41,23 +41,23 @@ const Header = () => {
       <div>
         <nav className="navbar">
           <ul className="nav-items">
-            {navItems2.map((item) => {
-              if (item.title === "Announcements") {
-                return (
-                  <li key={item.id} className={item.cName}
-                  onMouseOver={() => setDropdown(true)}
-                  onMouseLeave={() => setDropdown(false)}
-                  >
-                    <Link
-                      to={item.path}
+            {navItems.map((item) => {
+              // if (item.title === "Announcements") {
+              //   return (
+              //     <li key={item.id} className={item.cName}
+              //     onMouseOver={() => setDropdown(true)}
+              //     onMouseLeave={() => setDropdown(false)}
+              //     >
+              //       <Link
+              //         to={item.path}
                      
-                    >
-                      {item.title}
-                    </Link>
-                    {dropdown && <Dropdown list={dropdownOne}/>}
-                  </li>
-                );
-              }
+              //       >
+              //         {item.title}
+              //       </Link>
+              //       {dropdown && <Dropdown list={dropdownOne}/>}
+              //     </li>
+              //   );
+              // }
 
               return (
                 <li key={item.id} className={item.cName}>
@@ -66,30 +66,7 @@ const Header = () => {
               );
             })}
 
-{navItems3.map((item) => {  
-              if (item.title === "Academics") {
-                return (
-                  <li key={item.id} className={item.cName}
-                  onMouseOver={() => setDropdown(true)}
-                  onMouseLeave={() => setDropdown(false)}
-                  >
-                    <Link
-                      to={item.path}
-                     
-                    >
-                      {item.title}
-                    </Link>
-                    {dropdown && <Dropdown list={dropdownOne}/>}
-                  </li>
-                );
-              }
 
-              return (
-                <li key={item.id} className={item.cName}>
-                  <Link to={item.path}>{item.title}</Link>
-                </li>
-              );
-            })}
 
 
 
