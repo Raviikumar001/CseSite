@@ -12,6 +12,7 @@ const Home = () => {
   // const navigate = useNavigate();
   return (
     <>
+    <div className="Home">
     <Slider  />
      
 
@@ -23,6 +24,8 @@ const Home = () => {
 
     </div>
     <Event />
+
+    </div>
     </>
   );
 };
