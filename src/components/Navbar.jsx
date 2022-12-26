@@ -30,11 +30,11 @@ const Header = () => {
 
       <div className="top" style={{ fontSize: "1.1rem" }}>
         <div>
-          <img src={logo} alt="college" height="130px" />
+          <img src={logo} alt="college" height="120px" />
         </div>
         <div className="intro-top">
-          <h3>COMPUTER SCEINCE & ENGINEERING</h3>
-          <h6>INSTITUTE OF TECHNOLOGY GOPESHWAR</h6>
+          <h3>Computer Science & Engineering</h3>
+          <p>Institute of Technology Gopeshwar</p>
         </div>
       </div>
 
@@ -74,6 +74,7 @@ const Header = () => {
           </ul>
         </nav>
       </div>
+     
     </>
   );
 };

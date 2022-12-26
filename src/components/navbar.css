@@ -3,27 +3,29 @@
 .navbar {
     
     height: 7vh;
-    background: #1b1919;
+   
     background: #EAFDFC;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
 .nav-items{
     font-family: "Messi-Semi-Bold";
     
-    padding: 5px;
+    padding: 1px;
     display: flex;
     list-style: none;
     text-align: center;
     margin : 0 auto;
     justify-content: flex-end;
     font-size: 1.1rem;
-    margin-top:15px;
+    margin-top:5px;
     gap: 2rem;
     height: 7vh;
+  
    
 }
 

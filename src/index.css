@@ -1,71 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
-/* * {
-
-  font-family: 'Roboto', sans-serif;
-} */
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
 @font-face {
   font-family: "Messi";
-  src: local("Messina"),
-   url("./fonts/Messina.ttf") format("truetype");
+  src: local("Messina"), url("./fonts/Messina.ttf") format("truetype");
   font-weight: bold;
-  }
+}
 
-  @font-face {
-    font-family: "Messi-Bold";
-    src: local("Messina"),
-     url("./fonts/MessinaSans-Bold.ttf") format("truetype");
-    font-weight: bold;
-    }
+@font-face {
+  font-family: "Messi-Bold";
+  src: local("Messina"), url("./fonts/MessinaSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
 
-    @font-face {
-      font-family: "Messi-Semi-Bold";
-      src: local("Messina"),
-       url("./fonts/MessinaSemiBold.ttf") format("truetype");
-      font-weight: bold;
-      }
-
-
+@font-face {
+  font-family: "Messi-Semi-Bold";
+  src: local("Messina"), url("./fonts/MessinaSemiBold.ttf") format("truetype");
+  font-weight: bold;
+}
 
 body {
   background-color: #e0f2fe;
- 
 }
 
 .top {
-
-  background-color: #F7F7F7;
+  /* background-color: #f7f7f7; */
   padding: 15px;
   letter-spacing: 0.1rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  color: #333333;
   
 }
 
 .intro-top {
- 
   /* font-family: 'Work Sans', sans-serif; */
   font-family: "Messi-Bold";
   padding-left: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+
   border-left: 2px solid #1a120b;
 }
-.intro-top h3{
+.intro-top h3 {
   font-size: 1.3rem;
-
 }
-
-
+.intro-top p{
+  font-family: "Messi-Semi-Bold";
+  font-size: 1rem;
+}
 
 /* .course-container {
   display: flex;
@@ -87,7 +73,7 @@ body {
   flex: 0 0 auto;
 } */
 
-.Home{
+.Home {
   width: 100%;
 }
 
@@ -107,8 +93,8 @@ ul li {
   margin: 0 auto;
 }
 
-.news-section{
-  width:600px;
+.news-section {
+  width: 600px;
 }
 
 .news h4 {
@@ -146,7 +132,6 @@ ul li {
 }
 
 .welcome {
- 
   padding: 5px;
 }
 
@@ -154,7 +139,6 @@ ul li {
   font-family: "Messi-Semi-Bold";
   color: #197cbe;
   font-size: 1.4em;
-  
 }
 .welcome p {
   font-family: "Messi";
@@ -162,60 +146,58 @@ ul li {
   width: 50%;
 }
 
-
-.news-section h4{
+.news-section h4 {
   font-family: "Messi-Semi-Bold";
 }
 
-.news-section li{
+.news-section li {
   font-family: "Messi";
   font-size: 1.7rem;
 }
 
- .line{
+.line {
   height: 5px;
-  border-top: 2px solid #9ED5C5;
- }
+  border-top: 2px solid #9ed5c5;
+}
 
 .footer {
-
-     display: flex;
-     justify-content: flex-start ;
-      margin: 10px;
-     padding: 5px;
-     margin-bottom: 2em;
-     
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px;
+  margin-bottom: 2em;
 }
-.footer .foot-head-text{
+.footer .foot-head-text {
   font-family: "Messi-Semi-Bold";
 }
 
-.footer p{
+.footer p {
   font-family: "Messi";
 }
 
-.div1{
-
-  margin-left: 140px;
+.div1 {
+  margin-left: 9rem;
 }
-.div2{
+.div2 {
   display: flex;
-  margin-left: 30%;
+  margin-right: 9rem;
+ 
 }
 .footer-text {
-  background-color: #181D31;
+  background-color: #181d31;
   color: white;
 }
 
-.inner-div1{
- 
-  margin-left: 50px;
-  border-left: 2px solid #9ED5C5;
+.clg-text:hover{
+ text-decoration: underline;
+}
+
+.inner-div1 {
+  margin-left: 30px;
+  border-left: 2px solid #9ed5c5;
   padding-left: 10px;
   height: auto;
   line-height: 1em;
-
-  
 }
 
 @keyframes spin {
