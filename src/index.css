@@ -171,9 +171,7 @@ ul li {
 }
 
 .footer {
-  background-color: #faf8f1;
-  color: #1a120b;
-  font-size: 1.1rem;
+     display: flex;
 }
 .footer-text {
   background-color: #181D31;

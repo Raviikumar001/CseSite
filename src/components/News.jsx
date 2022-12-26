@@ -73,7 +73,7 @@ const News = () => {
       <img
         src="https://www.cse.iitk.ac.in/images/LatestNEWS03.jpg"
         alt="React Logo"
-        style={{ minHeight: 400, maxHeight: 400, maxWidth: 500 }}
+        style={{ minHeight: 400, maxHeight: 400, maxWidth: 500,  }}
       />
     </div>
   );
