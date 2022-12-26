@@ -1,4 +1,8 @@
 import { useState } from 'react'
+//fonts import
+import './fonts/Messina.ttf'
+import './fonts/MessinaSans-Bold.ttf'
+import './fonts/MessinaSemiBold.ttf'
 
 // import './App.css'
 import Header from './components/Navbar';

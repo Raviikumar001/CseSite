@@ -1,14 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/* * {
-  font-family: "Montserrat", sans-serif;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-* {
+/* * {
 
   font-family: 'Roboto', sans-serif;
-}
+} */
+
+
+@font-face {
+  font-family: "Messi";
+  src: local("Messina"),
+   url("./fonts/Messina.ttf") format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Messi-Bold";
+    src: local("Messina"),
+     url("./fonts/MessinaSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    }
+
+    @font-face {
+      font-family: "Messi-Semi-Bold";
+      src: local("Messina"),
+       url("./fonts/MessinaSemiBold.ttf") format("truetype");
+      font-weight: bold;
+      }
+
 
 
 body {
@@ -17,7 +38,8 @@ body {
 }
 
 .top {
-  background-color: #faf8f1;
+
+  /* background-color: #faf8f1; */
   padding: 15px;
   letter-spacing: 0.1rem;
   display: flex;
@@ -28,12 +50,21 @@ body {
 }
 
 .intro-top {
+ 
+  /* font-family: 'Work Sans', sans-serif; */
+  font-family: "Messi-Bold";
   padding-left: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border-left: 2px solid #1a120b;
 }
+.intro-top h3{
+  font-size: 1.3rem;
+
+}
+
+
 .course-container {
   display: flex;
   flex-wrap: nowrap;
@@ -113,16 +144,30 @@ ul li {
 }
 
 .welcome {
+ 
   padding: 5px;
 }
 
 .welcome h2 {
+  font-family: "Messi-Semi-Bold";
   color: #197cbe;
   font-size: 1.4em;
-  font-family: "Open Sans" sans-serif;
+  
 }
 .welcome p {
+  font-family: "Messi";
+  font-size: 1.1rem;
   width: 50%;
+}
+
+
+.news-section h4{
+  font-family: "Messi-Semi-Bold";
+}
+
+.news-section li{
+  font-family: "Messi";
+  font-size: 1.7rem;
 }
 
 .footer {

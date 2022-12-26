@@ -1,6 +1,7 @@
 
 
 .navbar {
+    
     height: 9vh;
     background: #1b1919;
     background: #EAFDFC;
@@ -11,6 +12,8 @@
 
 
 .nav-items{
+    font-family: "Messi-Semi-Bold";
+    
     padding: 5px;
     display: flex;
     list-style: none;
@@ -24,8 +27,12 @@
    
 }
 
+/* .nav-items li{
+    font-size: 1.1rem;
+} */
+
 .nav-items:hover {
-    background: #EAFDFC ;
+    /* background: #EAFDFC ; */
     cursor: pointer;
 }
 
@@ -35,7 +42,10 @@
    
 }
 
+
+
 .nav-items a:hover{
-    border-bottom: 1px solid #205295 ;
+    color: black;
+    border-bottom: 2px solid #205295 ;
 }
 
