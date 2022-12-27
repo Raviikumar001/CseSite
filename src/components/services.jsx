@@ -1,11 +1,11 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <>
       <header className="title-header">
         <div className="title-header-intro">
-          <p>Home <span className="bold-text">/ Resouces</span></p>
+          <p> <Link className="link-text" to="/" >Home </Link><span className="bold-text">/ Resources</span></p>
         </div>
 
         <div className="tle-gutter">
@@ -19,17 +19,37 @@ const Services = () => {
           <p>Here are some of the resources that might help you.</p>
           <p>More information to be added soon.</p>
         </div>
+        
+        <div className="space-div">
 
-        <br />
-        <br />
+        </div>
+       
 
         <div className="main-text title-header-intro">
           <h3>Undergraduate Studies</h3>
+          <br />
+          <br />
 
           <div className="main-text-links">
-      
+           <p className="text-underline"> <Link className="link-text" to="/resources/notices" >Academic Notices </Link></p>
+           <p className="text-underline"><Link className="link-text" to="/" >Academic Results</Link></p>
           </div>
         </div>
+
+        <div className="space-div">
+
+        </div>
+
+        {/* <div className="main-text title-header-intro">
+          <h3>Undergraduate Studies</h3>
+          <br />
+          <br />
+
+          <div className="main-text-links">
+           <p className="text-underline">Academic Notices</p>
+           <p className="text-underline">Academic Results.</p>
+          </div>
+        </div> */}
         
       </header>
 

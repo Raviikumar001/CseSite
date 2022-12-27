@@ -18,6 +18,7 @@ import Message from './components/pages/Message';
 import Programme from './components/pages/programme';
 import TimeTable from './components/pages/TimeTable';
 import Services from './components/services';
+import Notices from './components/microComponents/Notices';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/resources" element={<Services /> } />
+          <Route path='//resources/notices' element={<Notices />} />
           <Route path="/noticeboard" element={<WhatsNew />} />
           <Route path="/department" element={<AboutDepartment />} />
           <Route path="/message" element={<Message />} />

@@ -43,6 +43,7 @@ const Event = () => {
         <li><FaSpinner icon="spinner" className="spinner" />   Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae!</li> */}
         </ul>
       </div>
+       
     </div>
   );
 };

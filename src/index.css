@@ -157,11 +157,21 @@ ul li {
 }
 
 .line {
+  margin-top: 2em;
   height: 5px;
   border-top: 2px solid #9ed5c5;
 }
 
 /* Resources */
+.link-text{
+  text-decoration: none;
+  color: black;
+}
+
+.space-div{
+  height: 5rem;
+}
+
 .title-header {
   padding-left: 74px;
   padding-right: 74px 0px;
@@ -206,7 +216,7 @@ ul li {
 }
 .head-text{
   font-family: "Messi-Semi-Bold";
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
@@ -214,6 +224,16 @@ ul li {
 }
  .main-text {
   border-top: 2px solid;
+ }
+
+ .text-underline{
+  font-size: 1.12rem;
+  font-family: "Messi";
+  text-decoration: underline;
+ }
+ .text-underline:hover{
+  text-decoration: underline blue;
+
  }
 /* .vertical-text {
   height: 110vh;
@@ -243,6 +263,7 @@ ul li {
   justify-content: space-between;
   margin: 10px;
   padding: 5px;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 .footer .foot-head-text {
