@@ -5,7 +5,7 @@ const Services = () => {
     <>
       <header className="title-header">
         <div className="title-header-intro">
-          <p>Home / Resouces</p>
+          <p>Home <span className="bold-text">/ Resouces</span></p>
         </div>
 
         <div className="tle-gutter">
@@ -23,8 +23,12 @@ const Services = () => {
         <br />
         <br />
 
-        <div className="main-text">
+        <div className="main-text title-header-intro">
+          <h3>Undergraduate Studies</h3>
 
+          <div className="main-text-links">
+      
+          </div>
         </div>
         
       </header>

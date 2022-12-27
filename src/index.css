@@ -201,7 +201,9 @@ ul li {
   
 }
 
-
+.bold-text{
+  font-weight: 600;
+}
 .head-text{
   font-family: "Messi-Semi-Bold";
   font-size: 1.7rem;
@@ -210,7 +212,9 @@ ul li {
   padding-right: 10px;
   line-height: 1em;
 }
-
+ .main-text {
+  border-top: 2px solid;
+ }
 /* .vertical-text {
   height: 110vh;
 
