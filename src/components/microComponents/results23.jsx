@@ -56,9 +56,22 @@ const Results23 = () => {
                 className=" link-text"
                 target="_blank"
               >4<sup>th</sup> Semester Result</a></p>
-            <p>3<sup>th</sup> Semester Result</p>
-            <p>2<sup>th</sup> Semester Result</p>
-            <p>1<sup>th</sup> Semester Result</p>
+            <p> <a
+                href="https://drive.google.com/file/d/1IUOsmfyg7SDW1WaadA9K2q3YChzWnuJm/view?usp=share_link"
+                className=" link-text"
+                target="_blank"
+              >3<sup>th</sup> Semester Result</a></p>
+            <p><a
+                href="https://drive.google.com/file/d/1IDxV-UoImPHOct1RolaxZXtmlKyRyUQ6/view"
+                className=" link-text"
+                target="_blank"
+              >2<sup>th</sup> Semester Result</a></p>
+            <p><a
+                href="
+                https://drive.google.com/file/d/1IDLm_TIv-mQQjQvWmx9Z35m5G9MftgNu/view?usp=share_link"
+                className=" link-text"
+                target="_blank"
+              >1<sup>th</sup> Semester Result</a></p>
       
             
 
