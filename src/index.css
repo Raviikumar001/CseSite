@@ -32,7 +32,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  
 }
 
 .intro-top {
@@ -48,7 +47,7 @@ body {
 .intro-top h3 {
   font-size: 1.3rem;
 }
-.intro-top p{
+.intro-top p {
   font-family: "Messi-Semi-Bold";
   font-size: 1rem;
 }
@@ -160,6 +159,64 @@ ul li {
   border-top: 2px solid #9ed5c5;
 }
 
+/* Resources */
+.title-header {
+  padding-left: 74px;
+  padding-right: 74px px;
+}
+
+.title-header-intro {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 83.33333%;
+}
+.tle-gutter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  margin-top: 0;
+}
+
+.tle-gutter__title {
+  writing-mode: vertical-lr;
+  line-height: 8px;
+  left: 0;
+}
+
+tle-gutter__bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-right: 1px solid RGBA(0,0,0,.1);
+  border-right: 1px solid RGBA(var(--primary-text),.1);
+  height: 110vh;
+}
+
+/* .vertical-text {
+  height: 110vh;
+
+  padding: 0;
+  margin: 0;
+  width: 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.vertical-text span {
+  font-family: "Messi";
+  padding-top: 60px;
+  padding-right: 40px;
+  margin-left: 34px;
+  writing-mode: vertical-lr;
+  border-right: 1px solid #9ed5c5;
+  height: 110vh;
+} */
+
+/* footer css */
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -181,15 +238,14 @@ ul li {
 .div2 {
   display: flex;
   margin-right: 9rem;
- 
 }
 .footer-text {
   background-color: #181d31;
   color: white;
 }
 
-.clg-text:hover{
- text-decoration: underline;
+.clg-text:hover {
+  text-decoration: underline;
 }
 
 .inner-div1 {

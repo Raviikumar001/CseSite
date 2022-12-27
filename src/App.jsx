@@ -27,7 +27,7 @@ function App() {
       <Container style={{ minHeight: "75vh" }}>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/services" element={<Services /> } />
+          <Route path="/resources" element={<Services /> } />
           <Route path="/noticeboard" element={<WhatsNew />} />
           <Route path="/department" element={<AboutDepartment />} />
           <Route path="/message" element={<Message />} />

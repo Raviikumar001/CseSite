@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     
     <>
-      <br />
+    
       <div className="line"></div>
       <footer className="footer">
         <div className="div1 ">
