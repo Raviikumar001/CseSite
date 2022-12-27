@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 const Notices = () => {
@@ -6,7 +5,17 @@ const Notices = () => {
     <>
       <header className="title-header">
         <div className="title-header-intro">
-        <p> <Link className="link-text" to="/" >Home </Link> / <Link className="link-text" to="/resources" >Resources </Link><span className="bold-text">/ Notices</span></p>
+          <p>
+            {" "}
+            <Link className="link-text" to="/">
+              Home{" "}
+            </Link>{" "}
+            /{" "}
+            <Link className="link-text" to="/resources">
+              Resources{" "}
+            </Link>
+            <span className="bold-text">/ Notices</span>
+          </p>
         </div>
 
         <div className="tle-gutter">
@@ -28,19 +37,28 @@ const Notices = () => {
           <h3>Notices</h3>
 
           <div className="main-text-links">
-           <p></p>
+            <p>
+              <a
+                href="https://uktech.ac.in/site/writereaddata/uploadedCirculars/C_202212141115253131.pdf"
+                className=" link-text"
+                target="_blank"
+              >
+               1. Regarding Acamedic Registration & Enrolment Form Date
+              extension. 2022-23
+              </a>
+              
+            </p>
+
+            <p> <a href="https://uktech.ac.in/site/writereaddata/uploadedCirculars/C_202212091643440195.pdf"   className=" link-text"
+                target="_blank">2. Examamination Form For Regarding ODD sem examationa form 2022-23</a></p>
+
+              <p> <a href="https://uktech.ac.in/site/writereaddata/uploadedCirculars/C_202212080911284130.pdf"   className=" link-text"
+                target="_blank">3. Regarding Odd Sem Exam 2022-23 and attendance</a></p> 
+
           </div>
         </div>
-
-        
-        
       </header>
-
-    
-     
-      
-
-     </>
+    </>
   );
 };
 

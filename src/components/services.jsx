@@ -32,7 +32,7 @@ const Services = () => {
 
           <div className="main-text-links">
            <p className="text-underline"> <Link className="link-text" to="/resources/notices" >Academic Notices </Link></p>
-           <p className="text-underline"><Link className="link-text" to="/" >Academic Results</Link></p>
+           <p className="text-underline"><Link className="link-text" to="/resources/results" >Academic Results</Link></p>
           </div>
         </div>
 

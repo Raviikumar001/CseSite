@@ -35,6 +35,11 @@ const Event = () => {
           <li>
             <FaSpinner icon="spinner" className="spinner" /> Price Distribution for Annual Sports Fest <span className="color-text">Pravaah 2022</span> 
           </li>
+          <li>
+            <FaSpinner icon="spinner" className="spinner" /> Five days Workshop “Innovation and Emerging Technologies in Engineering” 
+          </li>
+
+          
           {/* <li><FaSpinner icon="spinner" className="spinner" />   Anuall CSE Award function </li>
         <li><FaSpinner icon="spinner" className="spinner" />   Publication for CSE Branch magazine, please submit your submissions. </li>
         <li><FaSpinner icon="spinner" className="spinner" />   Awards ceremony for the Sports fest 2022</li>

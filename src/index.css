@@ -235,6 +235,25 @@ ul li {
   text-decoration: underline blue;
 
  }
+
+
+ /* notices */
+ .main-text-links{
+  
+  font-family: "Messi-Semi-Bold";
+ }
+
+ .main-text-links p{
+  margin: 20px auto;
+ }
+
+
+
+
+
+
+
+
 /* .vertical-text {
   height: 110vh;
 
