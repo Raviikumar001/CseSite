@@ -21,6 +21,8 @@ import Services from './components/services';
 import Notices from './components/microComponents/Notices';
 import Results from './components/microComponents/Results';
 import Results23 from './components/microComponents/results23';
+import Academics from './components/pages/Academics';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -34,6 +36,7 @@ function App() {
           <Route path='/resources/notices' element={<Notices />} />
           <Route path='/resources/results' element={<Results />} />
           <Route path='/resources/results/result2023' element={<Results23 /> } />
+          <Route path='/academics' element={<Academics />} />
           <Route path="/noticeboard" element={<WhatsNew />} />
           <Route path="/department" element={<AboutDepartment />} />
           <Route path="/message" element={<Message />} />
