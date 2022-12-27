@@ -8,17 +8,30 @@ const Services = () => {
           <p>Home / Resouces</p>
         </div>
 
-        <div class="tle-gutter">
-          <h2 class="tle-gutter__title">
+        <div className="tle-gutter">
+          <h2 className="tle-gutter__title">
             <span>Resources</span>
           </h2>
-          <div class="tle-gutter__bg"></div>
+          <div className="tle-gutter__bg"></div>
         </div>
+
+        <div className="head-text">
+          <p>Here are some of the resources that might help you.</p>
+          <p>More information to be added soon.</p>
+        </div>
+
+        <br />
+        <br />
+
+        <div className="main-text">
+
+        </div>
+        
       </header>
-      <div>
-        klklkjl
-      </div>
-      <h3>67787</h3>
+
+    
+     
+      
 
      </>
   );

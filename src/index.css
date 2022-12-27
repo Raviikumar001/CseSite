@@ -27,6 +27,8 @@ body {
 
 .top {
   /* background-color: #f7f7f7; */
+  background-color: #ffffff;
+  z-index: 1;
   padding: 15px;
   letter-spacing: 0.1rem;
   display: flex;
@@ -162,36 +164,51 @@ ul li {
 /* Resources */
 .title-header {
   padding-left: 74px;
-  padding-right: 74px px;
+  padding-right: 74px 0px;
 }
 
 .title-header-intro {
+  padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
   width: 83.33333%;
 }
 .tle-gutter {
   position: absolute;
-  top: 0;
+  top: 30%;
   left: 0;
   width: 90px;
   margin-top: 0;
+  padding: 5px;
 }
 
 .tle-gutter__title {
+  font-family: "Messi-Semi-Bold";
   writing-mode: vertical-lr;
+
   line-height: 8px;
   left: 0;
 }
 
-tle-gutter__bg {
+.tle-gutter__bg {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 0;
-  border-right: 1px solid RGBA(0,0,0,.1);
-  border-right: 1px solid RGBA(var(--primary-text),.1);
-  height: 110vh;
+  left: 3%;
+  z-index: -1;
+  border: 1px solid rgba(0,0,0,.1);
+  width: 2px;
+  
+}
+
+
+.head-text{
+  font-family: "Messi-Semi-Bold";
+  font-size: 1.7rem;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1em;
 }
 
 /* .vertical-text {

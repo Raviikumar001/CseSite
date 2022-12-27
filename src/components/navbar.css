@@ -1,7 +1,7 @@
 
 
 .navbar {
-    
+    z-index: 1;
     height: 7vh;
    
     background: #EAFDFC;
