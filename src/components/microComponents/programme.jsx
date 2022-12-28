@@ -55,19 +55,20 @@ const Programme = () => {
     <>
       <header className="title-header">
         <div className="title-header-intro">
-          <p> <Link className="link-text" to="/" >Home </Link><span className="bold-text">/ Resources</span></p>
+          <p> <Link className="link-text" to="/" >Home </Link> / <Link className="link-text" to="/academics" >Academics </Link><span className="bold-text">/ Programme</span></p>
         </div>
 
         <div className="tle-gutter">
           <h2 className="tle-gutter__title">
-            <span>Resources</span>
+            <span>Programmes</span>
           </h2>
           <div className="tle-gutter__bg"></div>
         </div>
 
         <div className="head-text">
-          <p>Here are some of the resources that might help you.</p>
-          <p>More information to be added soon.</p>
+          <p>Being affiliated to the Uttarakhand Tachnical University, The Computer Science & Engineering department of the IT Gopeshwar follows the courses and syllabus prescribed by UTU which
+             focus on and provide in-depth studies in the following main stream topics</p>
+          
         </div>
         
         <div className="space-div">
@@ -75,8 +76,8 @@ const Programme = () => {
         </div>
        
 
-        <div className="main-text title-header-intro">
-          <h3>Undergraduate Studies</h3>
+        <div className="main-text title-header-intro ">
+          <h4>Core Subjects</h4>
           <br />
           <br />
 

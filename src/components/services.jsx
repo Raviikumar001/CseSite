@@ -37,7 +37,7 @@ const Services = () => {
            <p className="text-underline"><Link className="link-text" to="/resources/results" >Academic Results</Link></p>
            <div className="main-text-links">
            <p className="text-underline"> <Link className="link-text" to="/resources/learn" >What you'll Learn </Link></p>
-           <p className="text-underline"> <Link className="link-text" to="/resources/requirements" >What we Look for. </Link></p>
+           {/* <p className="text-underline"> <Link className="link-text" to="/resources/requirements" >What we Look for. </Link></p> */}
            </div>
           </div>
 

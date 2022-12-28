@@ -16,8 +16,10 @@ const Academics = () => {
         </div>
 
         <div className="head-text">
-          <p>At Institute of Technology, Gopeshwar</p>
-          <p>More information to be added soon.</p>
+          <p>At Institute of Technology, Gopeshwar, we aim to provide a robust <br /> and inclusive list of courses to get you 
+            well equipped with the industry <br /> standards.
+          </p>
+        
         </div>
         
         <div className="space-div">
@@ -29,15 +31,15 @@ const Academics = () => {
         <div className="main-text title-header-intro">
           <h3>Undergraduate Studies</h3>
           <br />
-          <br />
-
           
-        </div>
-        <div className="main-text-links">
-           <p className="text-underline"> <Link className="link-text" to="/resources/notices" >Academic Notices </Link></p>
-           <p className="text-underline"><Link className="link-text" to="/resources/results" >Academic Results</Link></p>
+
+         <div className="main-text-links">
+           <p className="text-underline"> <Link className="link-text" to="/academics/programme" >Academic Programme</Link></p>
+           <p className="text-underline"><Link className="link-text" to="/resources/results" >Class schedules</Link></p>
            
           </div>
+          
+        </div>
 
         <div className="space-div">
 
