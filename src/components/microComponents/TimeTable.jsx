@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Academics = () => {
+const TimeTable = () => {
   return (
     <>
       <header className="title-header">
@@ -10,14 +10,14 @@ const Academics = () => {
 
         <div className="tle-gutter">
           <h2 className="tle-gutter__title">
-            <span>Academics</span>
+            <span>Schedule</span>
           </h2>
           <div className="tle-gutter__bg"></div>
         </div>
 
         <div className="head-text">
-          <p>At Institute of Technology, Gopeshwar, we aim to provide a robust <br /> and inclusive list of courses to get you 
-            well equipped with the industry <br /> standards.
+          <p>At Institute of Technology, Gopeshwar, we aim to provide a robust <br /> and inclusive curriculum for classes. 
+          <br /> The class schedules follows all norms of AICTE. 
           </p>
         
         </div>
@@ -29,15 +29,19 @@ const Academics = () => {
           
 
         <div className="main-text title-header-intro">
-          <h3>Undergraduate Studies</h3>
+          <h5>You can find schedules for various semester below.</h5>
           <br />
           
 
          <div className="main-text-links">
-           <p className="text-underline"> <Link className="link-text" to="/academics/programme" >Academic Programme</Link></p>
-           <p className="text-underline"><Link className="link-text" to="/academics/schedule" >Class schedules</Link></p>
+           <p className="text-underline"> <Link className="link-text" to="/academics/programme" >4<sup>th</sup> Year CSE</Link></p>
+           <p className="text-underline"> <Link className="link-text" to="/academics/programme" >3<sup>rd</sup> Year CSE</Link></p>
+           <p className="text-underline"> <Link className="link-text" to="/academics/programme" >2<sup>nd</sup> Year CSE</Link></p>
            
+
           </div>
+
+
           
         </div>
 
@@ -66,4 +70,4 @@ const Academics = () => {
   );
 };
 
-export default Academics;
+export default TimeTable;

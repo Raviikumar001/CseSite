@@ -16,7 +16,7 @@ import WhatsNew from './components/pages/whatsNews';
 import AboutDepartment from './components/pages/AboutDepartment';
 import Message from './components/pages/Message';
 import Programme from './components/microComponents/programme';
-import TimeTable from './components/pages/TimeTable';
+import TimeTable from './components/microComponents/TimeTable';
 import Services from './components/services';
 import Notices from './components/microComponents/Notices';
 import Results from './components/microComponents/Results';
@@ -43,6 +43,7 @@ function App() {
           <Route path='/academics' element={<Academics />} />
 
           <Route path="/academics/programme" element={<Programme />} />
+          <Route path='/academics/schedule' element={<TimeTable />} />
           <Route path="/noticeboard" element={<WhatsNew />} />
           <Route path="/department" element={<AboutDepartment />} />
           <Route path="/message" element={<Message />} />
