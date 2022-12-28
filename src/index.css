@@ -185,6 +185,13 @@ ul li {
   padding-right: 10px;
   width: 83.33333%;
 }
+
+.title-header-intro h4{
+  font-family: "Messi-Semi-Bold";
+   display: inline-block; 
+   
+ }
+
 /* learn */
 .title-header-intro .phil-text{
   font-family: "Messi-Semi-Bold";
@@ -264,6 +271,42 @@ ul li {
   text-decoration: underline blue;
 
  }
+
+
+
+
+ /* programmes */
+
+ .tables{
+  border: 2px solid;
+ }
+ .tables tr{
+  border: 2px solid;
+ }
+ .tables td{
+  border: 1px solid #666;
+ }
+
+ .tables td, thead th, tbody td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.prog-tables{
+  display: flex;
+  gap: 20%;
+}
+
+.prog-tables .table-2{
+  height: 3rem;
+}
+
+
+
+
+
 
 
  /* notices */
