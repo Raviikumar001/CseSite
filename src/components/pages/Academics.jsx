@@ -34,7 +34,7 @@ const Academics = () => {
           
 
          <div className="main-text-links">
-           <p className="text-underline"> <Link className="link-text" to="/academics/programme" >Academic Programme</Link></p>
+           <p className="text-underline"> <Link className="link-text" to="/academics/programme" >Academic Course</Link></p>
            <p className="text-underline"><Link className="link-text" to="/academics/schedule" >Class schedules</Link></p>
            
           </div>
