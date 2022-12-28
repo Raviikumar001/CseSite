@@ -154,6 +154,7 @@ ul li {
 .news-section li {
   font-family: "Messi";
   font-size: 1.7rem;
+  padding-right: 6px;
 }
 
 .line {
@@ -183,6 +184,33 @@ ul li {
   padding-right: 10px;
   width: 83.33333%;
 }
+/* learn */
+.title-header-intro .phil-text{
+  font-family: "Messi-Semi-Bold";
+  font-size: 28px;
+}
+
+.main-principles h4{
+  font-family: "Messi-Semi-Bold";
+}
+
+.main-principles p{
+  font-family: "Messi";
+  font-size: 1.2rem;
+}
+
+.phil-test-list li{
+  font-family: "Messi-Semi-bold";
+  line-height: 2;
+  font-size: 1.1rem;
+  list-style-type: disc;
+}
+
+.list-bold{
+  text-decoration: underline solid black;
+}
+
+
 .tle-gutter {
   position: absolute;
   top: 30%;
@@ -238,42 +266,42 @@ ul li {
 
 
  /* notices */
+
+ .flex-div{
+  display: inline;
+}
+
+
  .main-text-links{
   
   font-family: "Messi-Semi-Bold";
+ 
+  /* display: flex;
+  flex-direction: column; */
  }
+
+ 
 
  .main-text-links p{
   margin: 20px auto;
  }
+  
 
-
-
-
-
-
-
-
-/* .vertical-text {
-  height: 110vh;
-
-  padding: 0;
-  margin: 0;
-  width: 2%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+.head-text-learn {
+  font-family: "Messi-Bold";
+  
 }
 
-.vertical-text span {
-  font-family: "Messi";
-  padding-top: 60px;
-  padding-right: 40px;
-  margin-left: 34px;
-  writing-mode: vertical-lr;
-  border-right: 1px solid #9ed5c5;
-  height: 110vh;
-} */
+.head-text-learn h2{
+  font-size: 4rem;
+}
+
+
+
+
+
+
+
 
 /* footer css */
 

@@ -22,6 +22,8 @@ import Notices from './components/microComponents/Notices';
 import Results from './components/microComponents/Results';
 import Results23 from './components/microComponents/results23';
 import Academics from './components/pages/Academics';
+import Learn from './components/microComponents/Learn';
+import Requirements from './components/microComponents/Requirements';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -35,7 +37,9 @@ function App() {
           <Route path="/resources" element={<Services /> } />
           <Route path='/resources/notices' element={<Notices />} />
           <Route path='/resources/results' element={<Results />} />
+          <Route path='/resources/learn' element={<Learn />} />
           <Route path='/resources/results/result2023' element={<Results23 /> } />
+          <Route path='/resources/requirements' element={<Requirements />} />
           <Route path='/academics' element={<Academics />} />
           <Route path="/noticeboard" element={<WhatsNew />} />
           <Route path="/department" element={<AboutDepartment />} />
