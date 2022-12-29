@@ -1,18 +1,73 @@
-import React from 'react'
-
-const AboutDepartment = () => {
+import React from "react";
+import { Link } from "react-router-dom";
+const Services = () => {
   return (
-    <div className=''>
-        <img src="https://itgopeshwar.ac.in/wp-content/uploads/2020/08/cse1.jpeg" alt="React Logo"  style={{minHeight:400, maxHeight:400, marginLeft:300}}/>
-        <div>
-            <h3>About CSE Department</h3>
-            <p className='fontSize'>
-The core courses offered by the Department of Computer Engineering are B.Tech Degree in Computer Science and Engineering . These courses are aimed at providing theoretical and practical knowledge of Computer Science. The subjects in Bachelor’s level programme include Computer Architecture and Organisation,Automata Languages and Computation,Data Stuctures and Algorithms, Database Management Systems,Language Processor,Computer Networks,Advanced Architecture and Parallel Processing ,Software Engineering, Digital Signal Processing ,Analysis and Design of Algorithms etc.
-The curriculum also includes management papers like Industrial Organization and Management. In order to bridge the gap between knowledge and its true application, students are required to undertake seminars, mini-project and main project that put them through an industry-like situation. The course produces an ideal computer engineer, well-equipped to meet the challenges of the rapidly growing IT industry.Computer Science has the power to change the world. This course offer a flexible and facinating programmes for the students who wish to acquire high skills in computers & applications, all supported by world class staff and facilities. The curriculum provides the students with a technical perspective on major issues of computer application, programming, languages and web enabled services.
-</p>
+    <>
+      <header className="title-header">
+        <div className="title-header-intro">
+          <p> <Link className="link-text" to="/" >Home </Link><span className="bold-text">/ Resources</span></p>
         </div>
-    </div>
-  )
-}
 
-export default AboutDepartment
+        <div className="tle-gutter">
+          <h2 className="tle-gutter__title">
+            <span>About</span>
+          </h2>
+          <div className="tle-gutter__bg"></div>
+        </div>
+
+        <div className="head-text">
+          <p>Here are some of the resources that might help you.</p>
+          <p>More information to be added soon.</p>
+        </div>
+        
+        <div className="space-div">
+
+        </div>
+       
+
+        <div className="main-text title-header-intro">
+          <h3>Undergraduate Studies</h3>
+          <br />
+
+      
+
+        <div className="flex-div">
+          <div className="main-text-links">
+           <p className="text-underline"> <Link className="link-text" to="/resources/notices" >Academic Notices </Link></p>
+           <p className="text-underline"><Link className="link-text" to="/resources/results" >Academic Results</Link></p>
+           <div className="main-text-links">
+           <p className="text-underline"> <Link className="link-text" to="/resources/learn" >What you'll Learn </Link></p>
+           {/* <p className="text-underline"> <Link className="link-text" to="/resources/requirements" >What we Look for. </Link></p> */}
+           </div>
+          </div>
+
+        </div>
+
+        </div>
+
+        <div className="space-div">
+
+        </div>
+
+        {/* <div className="main-text title-header-intro">
+          <h3>Undergraduate Studies</h3>
+          <br />
+          <br />
+
+          <div className="main-text-links">
+           <p className="text-underline">Academic Notices</p>
+           <p className="text-underline">Academic Results.</p>
+          </div>
+        </div> */}
+        
+      </header>
+
+    
+     
+      
+
+     </>
+  );
+};
+
+export default Services;

@@ -45,8 +45,8 @@ function App() {
           <Route path="/academics/programme" element={<Programme />} />
           <Route path='/academics/schedule' element={<TimeTable />} />
           <Route path='/academics/syllabus' element={<Syllabus />} />
-          <Route path="/noticeboard" element={<WhatsNew />} />
-          <Route path="/department" element={<AboutDepartment />} />
+        
+          <Route path="/about" element={<AboutDepartment />} />
           <Route path="/message" element={<Message />} />
           <Route path="/programme" element={<Programme />} />
           <Route path="/schedule" element={<TimeTable />} />
