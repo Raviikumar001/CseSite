@@ -66,7 +66,7 @@ const Programme = () => {
         </div>
 
         <div className="head-text">
-          <p>Being affiliated to the Uttarakhand Tachnical University, The Computer Science & Engineering department of the IT Gopeshwar follows the courses and syllabus prescribed by UTU which
+          <p>Being affiliated to the <span > <a className="univ"href="https://uktech.ac.in/en" target="_blank">Uttarakhand Tachnical University</a> </span>, The Computer Science & Engineering department of the IT Gopeshwar follows the courses and syllabus prescribed by UTU which
              focus on and provide in-depth studies in the following main stream topics</p>
           
         </div>

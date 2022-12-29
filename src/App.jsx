@@ -24,7 +24,7 @@ import Results23 from './components/microComponents/results23';
 import Academics from './components/pages/Academics';
 import Learn from './components/microComponents/Learn';
 import Syllabus from './components/microComponents/syllabus';
-
+import People from './components/pages/People';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -45,7 +45,8 @@ function App() {
           <Route path="/academics/programme" element={<Programme />} />
           <Route path='/academics/schedule' element={<TimeTable />} />
           <Route path='/academics/syllabus' element={<Syllabus />} />
-        
+          
+          <Route path='/people' element={<People />} />
           <Route path="/about" element={<AboutDepartment />} />
       
           <Route path="/programme" element={<Programme />} />

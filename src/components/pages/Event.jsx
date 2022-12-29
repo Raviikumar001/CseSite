@@ -28,12 +28,12 @@ const Event = () => {
             Events / Seminars Corner{" "}
           </h4>
           {/* <li> <FaSpinner icon="spinner" className="fa-spin"/> first news</li> */}
+          <li>
+            <FaSpinner icon="spinner" className="spinner" /> Price Distribution for Annual Sports Fest <span className="color-text">Pravaah 2022</span> 
+          </li>
 
           <li>
             <FaSpinner icon="spinner" className="spinner" />Annual Sports Fest <span className="color-text">Pravaah 2022</span>  to start from 01-Dec-2022
-          </li>
-          <li>
-            <FaSpinner icon="spinner" className="spinner" /> Price Distribution for Annual Sports Fest <span className="color-text">Pravaah 2022</span> 
           </li>
           <li>
             <FaSpinner icon="spinner" className="spinner" /> Five days Workshop “Innovation and Emerging Technologies in Engineering” 

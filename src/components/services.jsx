@@ -16,7 +16,9 @@ const Services = () => {
         </div>
 
         <div className="head-text">
-          <p>Here are some of the resources that might help you.</p>
+          <p>Here are some of the resources that might help you.
+          
+          </p>
           <p>More information to be added soon.</p>
         </div>
         
@@ -37,7 +39,7 @@ const Services = () => {
            <p className="text-underline"><Link className="link-text" to="/resources/results" >Academic Results</Link></p>
            <div className="main-text-links">
            <p className="text-underline"> <Link className="link-text" to="/resources/learn" >What you'll Learn </Link></p>
-           {/* <p className="text-underline"> <Link className="link-text" to="/resources/requirements" >What we Look for. </Link></p> */}
+           <p className="text-underline"> <a className="link-text" href="https://onlinecourses.nptel.ac.in/" target="_blank" >Swayam - NPTEL </a></p>
            </div>
           </div>
 

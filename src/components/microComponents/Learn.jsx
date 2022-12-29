@@ -49,7 +49,7 @@ const Learn = () => {
               We have come a long way since We first started our Educational
               Institute. Much has changed in the educational vision and how we
               implemnt learning. However, our education has been based on
-              certain principles that guide us today. These include.
+              certain principles that guide us even today. These include.
               </p>
               <ol className="phil-test-list">
                 <li>

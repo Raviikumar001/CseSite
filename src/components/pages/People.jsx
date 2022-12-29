@@ -1,29 +1,95 @@
-import React from 'react'
-import { FaSpinner } from 'react-icons/fa';
-const WhatsNew = () => {
+import React from "react";
+import { Link } from "react-router-dom";
+import {HiBellAlert} from 'react-icons/hi2'
+const People = () => {
   return (
-    <div className='news'>
-     
-    <div class="col-md-7  col-sm-8 col-xs-8 wthree-offers1-right" style={{minHeight:400, maxHeight:400,overflowY:'auto',backgroundColor:"#15506C", color:"white" }}>
-    <h4 style={{paddingTop: "1em", paddingLeft:"1em"}}>Notice Board</h4>
-    <ul>
-        {/* <li> <FaSpinner icon="spinner" className="fa-spin"/> first news</li> */}
+    <>
+      <header className="title-header">
+        <div className="title-header-intro">
+          <p> <Link className="link-text" to="/" >Home </Link><span className="bold-text">/ People</span></p>
+        </div>
+
+        <div className="tle-gutter">
+          <h2 className="tle-gutter__title">
+            <span>community</span>
+          </h2>
+          <div className="tle-gutter__bg"></div>
+        </div>
+
+        <div className="head-text">
+          <p>The Computer Science Department Provides various Ways of connecting, with peers in
+            the College Campus. Assuring your well being, we provide all oppurtunities and instances
+            for your self-growth.
+          </p>
+          {/* <p>More information to be added soon.</p> */}
+        </div>
         
-        <li><FaSpinner icon="spinner" className="spinner" />  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates dignissimos omnis nostrum? </li>
-        <li><FaSpinner icon="spinner" className="spinner" />    Practical exams from 02-01-2022</li>
-        <li><FaSpinner icon="spinner" className="spinner" />    Anuall CSE Award function </li>
-        <li><FaSpinner icon="spinner" className="spinner" />    Publication for CSE Branch magazine, please submit your submissions. </li>
-        <li><FaSpinner icon="spinner" className="spinner" />    Awards ceremony for the Sports fest 2022</li>
-        <li><FaSpinner icon="spinner" className="spinner" />    Annual Sports Fest started from 27-11-2022</li>
-        <li><FaSpinner icon="spinner" className="spinner" />    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores obcaecati nisi?</li>
-        <li><FaSpinner icon="spinner" className="spinner" />    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae!</li>
-    </ul>
-    </div>
-    <img src="https://media.istockphoto.com/id/599124676/photo/back-to-school.jpg?s=612x612&w=0&k=20&c=AVeq7nPyZhXRWdhHSvP_0qoL6MB-fVlZpQZ0oOObPR8=" alt="React Logo"  style={{minHeight:400, maxHeight:400}}/>
+        <div className="space-div">
+
+        </div>
+       
+
+        <div className="main-text title-header-intro">
+          <h4>Student Communities / Clubs</h4>
+          <p style={{marginTop: "1em", fontSize: '1.25rem', lineHeight: "1.59em"}}>
+            Our Deparment Provides Students with various oppurtunities to connect and enlarge thier vision and knowledge,
+            We provide various communites where Students can learn and share experiance which will enlarge their growth
+            in Tech and as well as non-tech fields (Communication ).
+            <br />
+            We provide students with various clubs and communites :
+           
+
+            
+           
+          </p>
+          <ol className="people-list">
+              <li>Machine Learning and AI</li>
+              <li>Web Development</li>
+              <li>competitive programming</li>
+            </ol>
+          <br />
+
+          <h4>Online Conect</h4>
+
+        <div className="flex-div">
+          <div className="main-text-links">
+            
+           <p className="text-underline">  Student Login</p>
+           <p className="text-underline"> Faculty Login</p>
+           <p><HiBellAlert /> Login Dashboard will be available soon for use. Stay Tuned! </p>
+           <div className="main-text-links">
+
+           {/* <p className="text-underline"> <Link className="link-text" to="/resources/requirements" >What we Look for. </Link></p> */}
+           </div>
+          </div>
+
+        </div>
+
+        </div>
+
+        <div className="space-div">
+
+        </div>
+
+        {/* <div className="main-text title-header-intro">
+          <h3>Undergraduate Studies</h3>
+          <br />
+          <br />
+
+          <div className="main-text-links">
+           <p className="text-underline">Academic Notices</p>
+           <p className="text-underline">Academic Results.</p>
+          </div>
+        </div> */}
+        
+      </header>
 
     
-</div>
-  )
-}
+     
+      
 
-export default WhatsNew
+     </>
+  );
+};
+
+export default People;

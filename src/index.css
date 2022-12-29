@@ -108,7 +108,7 @@ ul li {
   color: #39ff14;
 }
 .news ul li {
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 .spinner {
   animation: spin infinite 2s linear;
@@ -167,6 +167,15 @@ ul li {
 .link-text{
   text-decoration: none;
   color: black;
+}
+
+.univ{
+  color: black;
+
+}
+.univ:hover{
+  color: rgb(164, 111, 111);
+  
 }
 
 .space-div{
@@ -322,7 +331,16 @@ ul li {
 }
 
 
+/* people section */
 
+.people-list {
+  font-family: "Messi";
+  font-size: 1.3rem;
+
+}
+.people-list li{
+  list-style-type:disc;
+}
 
 
 
