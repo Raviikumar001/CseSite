@@ -12,9 +12,9 @@ import Footer from './components/Fotter';
 import { Container } from "react-bootstrap";
 import Home from './pages/Home';
 
-import WhatsNew from './components/pages/whatsNews';
+
 import AboutDepartment from './components/pages/AboutDepartment';
-import Message from './components/pages/Message';
+
 import Programme from './components/microComponents/programme';
 import TimeTable from './components/microComponents/TimeTable';
 import Services from './components/services';
@@ -47,7 +47,7 @@ function App() {
           <Route path='/academics/syllabus' element={<Syllabus />} />
         
           <Route path="/about" element={<AboutDepartment />} />
-          <Route path="/message" element={<Message />} />
+      
           <Route path="/programme" element={<Programme />} />
           <Route path="/schedule" element={<TimeTable />} />
           <Route path="*/" element={<div>Error</div>} />

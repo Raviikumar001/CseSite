@@ -304,6 +304,23 @@ ul li {
 }
 
 
+/* About section */
+
+.about-text{
+  font-family: "Messi";
+  line-height: 1.25;
+}
+
+.h-message{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+ .h-message-text p{
+  font-family: "Messi";
+  font-size: 1.2rem; line-height: 1.29;
+}
+
 
 
 
@@ -399,7 +416,7 @@ ul li {
 }
 
 
-@media (min-width: 1025px ) {
+@media screen and (min-width: 1250px) {
   .tle-gutter__bg {
     position: fixed;
     top: 0;

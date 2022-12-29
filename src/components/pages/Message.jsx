@@ -5,7 +5,7 @@ const Message = () => {
     <div >
       <h5>HOD's Message</h5>
       <div className='news'>
-      <img src="https://itgopeshwar.ac.in/wp-content/uploads/2020/07/VARUN-PRABHAKAR-1-225x300-1.jpg" alt="React Logo"  style={{minHeight:400, maxHeight:400}}/>
+      <img src="https://itgopeshwar.ac.in/wp-content/uploads/2020/07/VARUN-PRABHAKAR-1-225x300-1.jpg" alt="hod-image"  style={{minHeight:300, maxHeight:350}}/>
       <p>
       <span>My dear students</span>
       <br />

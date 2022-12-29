@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate } from "react-router-dom";
-import WhatsNew from "./pages/whatsNews";
+
 import AboutDepartment from "./pages/AboutDepartment";
 import "./navbar.css";
 import { navItems, dropdownOne, dropdownTwo, dropdownThree, dropdownfour } from "./NavItems";
