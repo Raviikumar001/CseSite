@@ -249,7 +249,7 @@ ul li {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 5%;
+  left: 3%;
   z-index: -1;
   border: 1px solid rgba(0,0,0,.1);
   width: 2px;
@@ -434,15 +434,19 @@ ul li {
 }
 
 
-@media screen and (min-width: 1250px) {
+@media screen and (max-width: 1366px) {
   .tle-gutter__bg {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 3%;
+    left: 4%;
     z-index: -1;
     border: 1px solid rgba(0,0,0,.1);
     width: 2px;
     
+  }
+ 
+  .tle-gutter__bg span{
+    top: 2%;
   }
 }

@@ -20,6 +20,19 @@ const News = () => {
 
           <li>
             <FaSpinner icon="spinner" className="spinner" />{" "}
+            <a
+                href="https://uktech.ac.in/site/writereaddata/UploadNews/pdf/C_202301031716133010.pdf"
+                style={{color:"white", textDecoration:"none"}}
+                target="_blank"
+              >
+               1. Tentative B.Tech. ODD Sem 2022-23 Schedule.
+              </a>
+          </li>
+
+
+
+          <li>
+            <FaSpinner icon="spinner" className="spinner" />{" "}
             <span className="color-text">Animay Tiwari</span>, final year
             student at Computer Science and Engineering,Institute of Technology
             Gopeshwar, has been nominated for{" "}
