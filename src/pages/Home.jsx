@@ -8,6 +8,7 @@ import Slider from "../components/Slider";
 import Event from "../components/pages/Event";
 import News from "../components/News";
 import Welcome from "../components/Welcome";
+import Slider2 from "../components/Slider2";
 const Home = () => {
   // const navigate = useNavigate();
   return (
@@ -24,6 +25,9 @@ const Home = () => {
 
     </div>
     <Event />
+
+     <br />
+    
 
     </div>
     </>

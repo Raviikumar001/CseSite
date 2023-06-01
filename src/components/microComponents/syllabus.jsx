@@ -43,7 +43,7 @@ const Syllabus = () => {
 
         <div className="tle-gutter">
           <h2 className="tle-gutter__title">
-            <span>Syllabus</span>
+            <span></span>
           </h2>
           <div className="tle-gutter__bg"></div>
         </div>
@@ -51,8 +51,8 @@ const Syllabus = () => {
         <div className="head-text">
           <p>
             At Institute of Technology, Gopeshwar, we aim to provide a robust{" "}
-            <br /> and inclusive curriculum for classes.
-            <br /> The class schedules follows all norms of AICTE.
+            and inclusive curriculum for classes.
+            The class schedules follows all norms of AICTE.
           </p>
         </div>
 

@@ -44,8 +44,8 @@
           </div>
 
           <div className="head-text">
-            <p>At Institute of Technology, Gopeshwar, we aim to provide a robust <br /> and inclusive curriculum for classes. 
-            <br /> The class schedules follows all norms of AICTE. 
+            <p>At Institute of Technology, Gopeshwar, we aim to provide a robust and inclusive curriculum for classes. 
+        The class schedules follows all norms of AICTE. 
             </p>
           
           </div>
