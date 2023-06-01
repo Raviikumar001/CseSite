@@ -16,8 +16,8 @@ const Academics = () => {
         </div>
 
         <div className="head-text">
-          <p>At Institute of Technology, Gopeshwar, we aim to provide a robust <br /> and inclusive list of courses to get you 
-            well equipped with the industry <br /> standards.
+          <p>At Institute of Technology, Gopeshwar, we aim to provide a robust  and inclusive list of courses to get you 
+            well equipped with the industry standards.
           </p>
         
         </div>

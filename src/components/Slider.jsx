@@ -61,7 +61,7 @@ function Slider() {
           style={{objectFit:"cover"}}
         />
         <Carousel.Caption>
-          <h4>Price distribution for Sports</h4>
+          <h4>Prize distribution for Sports</h4>
           
         </Carousel.Caption>
       </Carousel.Item>

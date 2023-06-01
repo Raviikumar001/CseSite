@@ -11,7 +11,7 @@ const People = () => {
 
         <div className="tle-gutter">
           <h2 className="tle-gutter__title">
-            <span>community</span>
+            <span>Community</span>
           </h2>
           <div className="tle-gutter__bg"></div>
         </div>

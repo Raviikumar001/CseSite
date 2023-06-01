@@ -145,6 +145,7 @@ ul li {
   font-family: "Messi";
   font-size: 1.1rem;
   width: 50%;
+  text-align: justify;
 }
 
 .news-section h4 {
@@ -230,7 +231,7 @@ ul li {
 
 .tle-gutter {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 0;
   width: 110px;
   margin-top: 0;
@@ -266,6 +267,7 @@ ul li {
   padding-left: 10px;
   padding-right: 10px;
   line-height: 1em;
+  text-align: justify;
 }
  .main-text {
   border-top: 2px solid #205295;
