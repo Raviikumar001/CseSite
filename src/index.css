@@ -262,7 +262,7 @@ ul li {
 }
 .head-text{
   font-family: "Messi-Semi-Bold";
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
@@ -271,6 +271,7 @@ ul li {
 }
  .main-text {
   border-top: 2px solid #205295;
+  text-align: justify;
  }
 
  .text-underline{

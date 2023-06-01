@@ -54,8 +54,11 @@ const People = () => {
         <div className="flex-div">
           <div className="main-text-links">
             
-           <p className="text-underline">  Student Login</p>
-           <p className="text-underline"> Faculty Login</p>
+           <button>
+           <p className="text-underline">  Admin Login</p>
+           </button>
+           
+           {/* <p className="text-underline"> Faculty Login</p> */}
            <p><HiBellAlert /> Login Dashboard will be available soon for use. Stay Tuned! </p>
            <div className="main-text-links">
 
