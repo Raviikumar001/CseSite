@@ -427,6 +427,31 @@ ul li {
   line-height: 1em;
 }
 
+.admin-btn{
+  border: 1px solid #a1b2c9;
+  background-color: white;
+  border-radius: 5%;
+  height: 3.2rem;
+}
+
+.admin-btn:hover {
+  background-color: rgb(183, 207, 231);
+  color: black;
+}
+
+.Form-Box{
+  
+  margin: 5% 30%;
+  
+}
+.Form-Box h3{
+  text-align: center;
+}
+
+
+
+
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -452,4 +477,80 @@ ul li {
   .tle-gutter__bg span{
     top: 2%;
   }
+}
+
+
+/* form */
+
+.form{
+  border: 2px solid #302f2d;
+  border-radius: 9px;
+  height: 28rem;
+  width: 27rem;
+  
+
+}
+
+.form-label{
+  display: block;
+  padding-left: 1rem;
+  font-family: "Messi-Semi-Bold";
+  font-size: 1.1rem;
+}
+
+.form-input{
+  margin-left: 1rem;
+  height: 2.5rem;
+  width: 23rem;
+
+  border-radius: 6px;
+  
+}
+.form-input:hover
+{
+  box-shadow: inset 0 0 0 1px var(--essential-base,#000000);
+}
+.form-input::placeholder{
+  padding: .5rem;
+}
+
+
+.heading-sign{
+ margin-top: 1rem;
+ margin-bottom: .5rem;
+}
+.button-submit{
+   margin: 2% 30%;
+  text-align: center;
+  height: 2.8rem;
+  width:  10rem;
+  border-radius: 5px;
+}
+
+.button-submit:hover{
+  background-color: #1ed760;
+}
+.form-text{
+  font-family: "Messi-Semi-Bold";
+}
+.login-prob{
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.login-prob:hover{
+  color: black;
+}
+
+.forgot-text{
+ 
+  margin: 4rem 3rem;
+}
+
+.register-btn{
+  border: none;
+
+}
+.register-btn p{
+  color: #046d29;
 }

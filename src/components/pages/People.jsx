@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {HiBellAlert} from 'react-icons/hi2'
+
+
 const People = () => {
   return (
     <>
@@ -54,8 +56,8 @@ const People = () => {
         <div className="flex-div">
           <div className="main-text-links">
             
-           <button>
-           <p className="text-underline">  Admin Login</p>
+           <button className="admin-btn">
+            <Link className="link-text" to="/people/admin">Admin Login</Link>
            </button>
            
            {/* <p className="text-underline"> Faculty Login</p> */}
@@ -70,9 +72,12 @@ const People = () => {
 
         </div>
 
+
         <div className="space-div">
 
         </div>
+
+
 
         {/* <div className="main-text title-header-intro">
           <h3>Undergraduate Studies</h3>

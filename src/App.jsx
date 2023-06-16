@@ -12,9 +12,9 @@ import Footer from './components/Fotter';
 import { Container } from "react-bootstrap";
 import Home from './pages/Home';
 
-
+import SigninT from './components/microComponents/SigninT';
 import AboutDepartment from './components/pages/AboutDepartment';
-
+import Form from './components/pages/Form';
 import Programme from './components/microComponents/programme';
 import TimeTable from './components/microComponents/TimeTable';
 import Services from './components/services';
@@ -47,11 +47,16 @@ function App() {
           <Route path='/academics/syllabus' element={<Syllabus />} />
           
           <Route path='/people' element={<People />} />
+
+          <Route path='/people/admin' element={<Form />} />
+          <Route path='/people/admin/forgotcredentials' element={<SigninT />} />
+
+
           <Route path="/about" element={<AboutDepartment />} />
       
           <Route path="/programme" element={<Programme />} />
           <Route path="/schedule" element={<TimeTable />} />
-          <Route path="*/" element={<div>Error</div>} />
+          <Route path="*" element={<div>Error</div>} />
 
         </Routes>
       </Container>
