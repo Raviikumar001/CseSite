@@ -18,6 +18,17 @@ const News = () => {
           <h4>Latest News</h4>
           {/* <li> <FaSpinner icon="spinner" className="fa-spin"/> first news</li> */}
 
+
+          <li>
+            <FaSpinner icon="spinner" className="spinner" />{" "}
+            <a
+                href="https://uktech.ac.in/site/writereaddata/UploadNews/pdf/C_202306121747441127.pdf"
+                style={{color:"white", textDecoration:"none"}}
+                target="_blank"
+              >
+               1. B.Tech. Even Sem 2022-23 Schedule.
+              </a>
+          </li>
           <li>
             <FaSpinner icon="spinner" className="spinner" />{" "}
             <a
@@ -25,7 +36,7 @@ const News = () => {
                 style={{color:"white", textDecoration:"none"}}
                 target="_blank"
               >
-               1. Tentative B.Tech. ODD Sem 2022-23 Schedule.
+               2. Tentative B.Tech. ODD Sem 2022-23 Schedule.
               </a>
           </li>
 
