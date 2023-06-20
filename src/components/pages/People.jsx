@@ -51,17 +51,19 @@ const People = () => {
             </ol>
           <br />
 
-          <h4>Online Conect</h4>
+          {/* <h4>Online Conect</h4> */}
+          <h4>Online Resources</h4>
+          <h5 className="links"><a className="links" href="https://jobify-4bof.onrender.com/" target="_blank">Job Tracker Application</a></h5>
 
         <div className="flex-div">
           <div className="main-text-links">
             
-           <button className="admin-btn">
+           {/* <button className="admin-btn">
             <Link className="link-text" to="/people/admin">Admin Login</Link>
-           </button>
+           </button> */}
            
            {/* <p className="text-underline"> Faculty Login</p> */}
-           <p><HiBellAlert /> Login Dashboard will be available soon for use. Stay Tuned! </p>
+            {/* <p><HiBellAlert /> Login Dashboard will be available soon for use. Stay Tuned! </p> */}
            <div className="main-text-links">
 
            {/* <p className="text-underline"> <Link className="link-text" to="/resources/requirements" >What we Look for. </Link></p> */}
