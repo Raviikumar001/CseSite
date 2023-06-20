@@ -37,6 +37,16 @@ const Notices = () => {
           <h3>Notices</h3>
 
           <div className="main-text-links">
+          <p>
+              <a
+                href="https://uktech.ac.in/site/writereaddata/UploadNews/pdf/C_202306121747441127.pdf"
+                className=" link-text"
+                target="_blank"
+              >
+               1. Tentative B.Tech. Even Sem 2022-23 Schedule.
+              </a>
+              
+            </p>
 
           <p>
               <a
@@ -44,7 +54,7 @@ const Notices = () => {
                 className=" link-text"
                 target="_blank"
               >
-               1. Tentative B.Tech. ODD Sem 2022-23 Schedule.
+               2. Tentative B.Tech. ODD Sem 2022-23 Schedule.
               </a>
               
             </p>
@@ -54,17 +64,17 @@ const Notices = () => {
                 className=" link-text"
                 target="_blank"
               >
-               2. Regarding Acamedic Registration & Enrolment Form Date
+               3. Regarding Acamedic Registration & Enrolment Form Date
               extension. 2022-23
               </a>
               
             </p>
 
             <p> <a href="https://uktech.ac.in/site/writereaddata/uploadedCirculars/C_202212091643440195.pdf"   className=" link-text"
-                target="_blank">3. Examamination Form For Regarding ODD sem examationa form 2022-23</a></p>
+                target="_blank">4. Examamination Form For Regarding ODD sem examationa form 2022-23</a></p>
 
               <p> <a href="https://uktech.ac.in/site/writereaddata/uploadedCirculars/C_202212080911284130.pdf"   className=" link-text"
-                target="_blank">4. Regarding Odd Sem Exam 2022-23 and attendance</a></p> 
+                target="_blank">5. Regarding Odd Sem Exam 2022-23 and attendance</a></p> 
 
           </div>
         </div>
