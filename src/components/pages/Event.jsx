@@ -29,10 +29,10 @@ const Event = () => {
           </h4>
           {/* <li> <FaSpinner icon="spinner" className="fa-spin"/> first news</li> */}
           <li>
-            <FaSpinner icon="spinner" className="spinner" /> Clutural(Fyoli) Fest May 2023
+            <FaSpinner icon="spinner" className="spinner" /> Clutural(Fyoli) Fest April 2023
           </li>
           <li>
-            <FaSpinner icon="spinner" className="spinner" /> Tech Fest May 2023 has started , Entries are opened for enrollment.
+            <FaSpinner icon="spinner" className="spinner" /> Tech Fest April 2023 has started , Entries are opened for enrollment.
           </li>
           <li>
             <FaSpinner icon="spinner" className="spinner" /> Prize Distribution for Annual Sports Fest <span className="color-text">Pravaah 2022</span> 
