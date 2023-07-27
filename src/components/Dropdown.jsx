@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./dropdown.css";
 
+
+//dropdown component
 function Dropdown({list}) {
   const [dropdown, setDropdown] = useState(false);
 
